@@ -1,26 +1,31 @@
-import { Router } from 'express';
+import { Router } from "express";
 import {
-  cadastrarSabor,
-  apagarSabor,
-  calcularTotalSabor,
-  listarSabores,
-  editarSabor,
-  editarQuantidade,
-  listarHistoricoPorMes,
   adicionarEntrada,
-  adicionarSaida
-} from '../controllers/dindin.controller';
+  adicionarSaida,
+  apagarSabor,
+  cadastrarSabor,
+  calcularTotalSabor,
+  editarQuantidade,
+  editarSabor,
+  listarHistoricoPorMes,
+  listarReceitas,
+  listarSabores,
+  salvarReceita,
+} from "../controllers/dindin.controller";
 
 const router = Router();
 
-router.post('/novo-sabor', cadastrarSabor);
-router.delete('/dindin/:id', apagarSabor);
-router.post('/calcular-total', calcularTotalSabor);
-router.get('/sabores', listarSabores);
-router.put('/editarSabor/:id', editarSabor);
-router.patch('/editarQuantidade/:id', editarQuantidade);
-router.patch('/adcionar-sentrada/:id', adicionarEntrada);
-router.patch('/adcionar-saida/:id', adicionarSaida);
-router.get('/historico-por-mes', listarHistoricoPorMes);
+router.post("/novo-sabor", cadastrarSabor);
+router.delete("/dindin/:id", apagarSabor);
+router.post("/calcular-total", calcularTotalSabor);
+router.get("/sabores", listarSabores);
+router.get("/receitas", listarReceitas);
+router.put("/receitas/:id", salvarReceita);
+router.put("/editarSabor/:id", editarSabor);
+router.patch("/editarQuantidade/:id", editarQuantidade);
+router.patch("/adcionar-sentrada/:id", adicionarEntrada);
+router.patch("/adicionar-entrada/:id", adicionarEntrada);
+router.patch("/adicionar-saida/:id", adicionarSaida);
+router.get("/historico-por-mes", listarHistoricoPorMes);
 
 export default router;

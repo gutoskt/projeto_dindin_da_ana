@@ -1,4 +1,32 @@
-# Welcome to your Expo app 👋
+# <img src="app/imagens/imagem2.jpg" alt="Dindin da Ana" width="92" align="left" /> Dindin da Ana
+
+Aplicativo de gestão de sabores, estoque, vendas, receitas e resultados do Dindin da Ana.
+
+![Logo Dindin da Ana](app/imagens/imagem2.jpg)
+
+## Identidade visual
+
+A identidade principal usa o azul `#0081CC`, com azuis claros para superfícies e estados de apoio.
+
+## Desenvolvimento
+
+### Variáveis de ambiente
+
+As credenciais e configurações locais ficam fora do GitHub. O arquivo real `backend/.env` é ignorado pelo Git e não deve ser publicado.
+
+Para configurar o backend localmente:
+
+```bash
+Copy-Item backend/.env.example backend/.env
+```
+
+Preencha os valores do PostgreSQL em `backend/.env`. Para o app, use `.env` apenas se precisar substituir a URL padrão da API:
+
+```env
+EXPO_PUBLIC_API_URL=http://localhost:3000/api
+```
+
+Arquivos protegidos pelo `.gitignore` incluem `.env`, `backend/.env`, `node_modules/`, `.expo/`, builds, logs, caches, cobertura de testes, certificados e arquivos de credenciais. Os arquivos `.env.example` são modelos sem segredos e podem ser enviados ao GitHub.
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
