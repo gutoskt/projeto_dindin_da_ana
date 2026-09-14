@@ -30,11 +30,11 @@ const CUSTO_UNITARIO = 1.00;
 const PRECO_VENDA = 2.00;
 
 export const cadastrarSabor = async (
-  req: Request<{}, any, CadastrarSaborBody>, 
+  req: Request, 
   res: Response
 ) => {
   try {
-    const { nomedindin, quantidadesabor } = req.body;
+    const { nomedindin, quantidadesabor } = req.body as CadastrarSaborBody;
 
     if (!nomedindin?.trim() || typeof quantidadesabor !== 'number' || quantidadesabor < 0) {
       return res.status(400).json({ mensagem: 'Envie um nome válido e uma quantidade maior ou igual a zero.' });
