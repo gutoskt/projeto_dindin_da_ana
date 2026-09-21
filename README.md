@@ -78,6 +78,15 @@ O **Dindim** é uma aplicação mobile multiplataforma desenvolvida para simplif
    npx expo start
    ```
 5. Abra o aplicativo Expo Go no celular e leia o QR Code exibido no terminal (ou rode no emulador).
-📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-Desenvolvido por Augusto / gutoskt (https://github.com/gutoskt) 🚀
+
+## 📬 Contato
+
+Caso queira trocar uma ideia ou acompanhar meus projetos:
+
+- **LinkedIn:** [Carlos Augusto Nunes Vieira](https://www.linkedin.com/in/carlos-augusto-nunes-vieira-602833304)
+- **Instagram:** [@devgu_to](https://www.instagram.com/devgu_to)
+- **Portfólio Atual:** [projeto-portfolio-segundo.web.app](https://projeto-portfolio-segundo.web.app)
+
+---
+
+Feito com zelo por **Carlos Augusto** ❤️
