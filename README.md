@@ -44,3 +44,40 @@ O **Dindim** é uma aplicação mobile multiplataforma desenvolvida para simplif
    ```bash
    git clone [https://github.com/gutoskt/projeto_dindin_da_ana.git](https://github.com/gutoskt/projeto_dindin_da_ana.git)
    cd projeto_dindin_da_ana/server # ou o caminho da pasta do backend
+   ```
+
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Crie um arquivo .env na raiz do backend baseado no arquivo .env.example:
+   ```bash
+   PORT=3000
+   DATABASE_URL=postgresql://usuario:senha@localhost:5432/dindim_db
+   ```
+4. Execute as migrações/scripts do banco de dados e inicie o servidor:
+   ```bash
+   npm run dev
+   ```
+### **2. Configuração do Frontend (App Mobile)**
+
+1. Acesse a pasta do projeto mobile:
+   ```bash
+   cd ../mobile
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Crie o arquivo .env para apontar para a URL da API backend:
+   ```bash
+   API_URL=http://SEU_IP_LOCAL:3000
+   ```
+4. Inicie o Expo:
+   ```bash
+   npx expo start
+   ```
+5. Abra o aplicativo Expo Go no celular e leia o QR Code exibido no terminal (ou rode no emulador).
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Desenvolvido por Augusto / gutoskt (https://github.com/gutoskt) 🚀
