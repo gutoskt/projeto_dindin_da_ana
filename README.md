@@ -24,7 +24,7 @@ O **Dindim** é uma aplicação mobile multiplataforma desenvolvida para simplif
 ### **Backend & Banco de Dados**
 * **[Node.js](https://nodejs.org/)** & **[Express](https://expressjs.com/)** — API RESTful para regras de negócio e rotas.
 * **[PostgreSQL](https://www.postgresql.org/)** — Banco de dados relacional robusto para armazenamento dos dados.
-* **TypeScript** — Utilizado em todo o ciclo do backend.
+* **[TypeScript](https://www.typescriptlang.org/)** — Utilizado em todo o ciclo do backend.
 
 ---
 
