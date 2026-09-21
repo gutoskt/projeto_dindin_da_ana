@@ -4,12 +4,6 @@ O **Dindim** é uma aplicação mobile multiplataforma desenvolvida para simplif
 
 ---
 
-## 📱 Telas do Aplicativo
-
-*(Adicione aqui os prints das telas do seu aplicativo para destacar o visual)*
-
----
-
 ## ✨ Funcionalidades Principais
 
 * **Gestão Financeira**: Registro e acompanhamento de entradas, saídas, receitas e despesas.
